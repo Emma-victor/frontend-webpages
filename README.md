@@ -1,2 +1,2 @@
 # frontend-webpages
-contains my frontend practice login pages
+this repo contains my frontend practice login pages
