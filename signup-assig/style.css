@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.full-content {
+    background-color: #f5e0a4;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+}
+.left-content {
+    width: 50%;
+    height: 100vh;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.left-content .logo {
+    width: 190px;
+    height: 80px;
+    overflow:hidden;
+}
+.logo img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.left-content .text {
+    color: black;
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 45px;
+    font-weight: 500;
+}
+.left-content .text span {
+    color: red;
+    font-weight: 600;
+}
+.left-content .pic {
+    width: 350px;
+    height: 300px;
+    margin-left: 5%;
+}
+.left-content .pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.right-content {
+    width: 50%;
+    height: 100vh;
+    background-color: #ffffff;
+    padding-left: 30px;
+    border-top-left-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+}
+.right-content .language {
+    height: 35px;
+    max-width: 300px;
+    margin-left: 60%;
+    margin-top: 30px;
+}
+.right-content .language #languages {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    border: none;
+    outline: none;
+    color: rgba(0, 0, 0, 0.61);
+    font-size: 16px;
+    font-weight: 600;
+    padding-right: 5px;
+}
+.right-content .acct {
+    color: black;
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 25px;
+} 
+.right-content form {
+    max-width: 470px;
+
+}
+ .right-content form input[type="text"],
+ .right-content form input[type="password"]
+  {
+    margin-top: 20px;
+    width: 470px;
+    padding: 15px 10px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    background-color: #f5e0a4;
+    font-size: 18px;
+    font-weight: 500;
+}
+.right-content form input[type="submit"] {
+    margin-top: 20px;
+    margin-left: 30%;
+    padding: 15px 80px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #b43a0d;
+    cursor: pointer;
+    transition: all is ease;
+
+}
+.right-content form input[type="submit"]:hover {
+    background-color: #f5e0a4;
+    color: black;
+}
+.right-content .horizontal-line {
+    border-top: 1px solid #00000091;
+    display: block;
+    width: 28%;
+    margin: 15px 0;
+}
+.right-content .sign {
+    display: flex;
+    flex-direction: row; 
+    margin: 20px 10px 0 10px;
+}
+.right-content .sign .separator-text {
+    margin: 5px 15px 0 15px;
+    color: rgba(0, 0, 0, 0.548);
+}
+.right-content .icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px 5px; 
+}
+.right-content .icons a:hover {
+    font-size: 40px;
+}
+.right-content .icons a {
+margin-right: 90px;
+font-size: 35px;
+text-decoration: none;
+}
+.right-content .icons a .fa-facebook {
+    color: rgba(0, 0, 255, 0.822);
+}
+.right-content .icons a .fa-google {
+   background: linear-gradient(180deg, red, yellow, green, blue);
+   background-clip: text;
+   color: transparent;
+}.right-content .icons a .fa-square-instagram {
+    background: linear-gradient(170deg, rgb(241, 160, 8), rgb(184, 184, 3),rgb(121, 2, 121));
+    background-clip: text;
+    color: transparent;
+ }
+.right-content .log {
+    color: #000000e8;
+    font-weight: 400;
+    margin-top: 15px;
+    font-size: 17px;
+}
+.log a {
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+    opacity: 0.7;
+    transition: all 0.6s ease;
+}
+.log a:hover {
+    opacity: 1;
+    font-size: 20px;
+}
